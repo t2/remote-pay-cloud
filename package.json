@@ -24,9 +24,7 @@
     "url": "https://github.com/clover/remote-pay-cloud"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified, \"$npm_package_version && exit 1",
-    "postversion": "node scripts/postversion.sh \"$npm_package_version\"",
-    "preinstall": "node scripts/generateDocs.sh"
+    "test": "echo \"Error: no test specified, \"$npm_package_version && exit 1"
   },
   "dependencies": {
     "remote-pay-cloud-api": "1.1.0-rc5.0",

@@ -25,8 +25,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified, \"$npm_package_version && exit 1",
-    "postversion": "scripts/postversion.sh \"$npm_package_version\"",
-    "preinstall": "scripts/generateDocs.sh"
+    "postversion": "node scripts/postversion.sh \"$npm_package_version\"",
+    "preinstall": "node scripts/generateDocs.sh"
   },
   "dependencies": {
     "remote-pay-cloud-api": "1.1.0-rc5.0",
